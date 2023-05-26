@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: ead
+    volumes:
+      - .:/app
+    ports:
+      - 3005:3005
+    expose:
+      - 3005
+    command: python main.py
