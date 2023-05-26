@@ -5,7 +5,7 @@ services:
     build: .
     container_name: ead
     volumes:
-      - .:/app
+      - ./src.:/src
     ports:
       - 3005:3005
     expose:
