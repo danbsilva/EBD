@@ -3,4 +3,4 @@ steps:
     args: ['build', '-t', 'app', '.']
 
   - name: 'docker'
-    args: ['run', 'app', 'python3', 'main.py']
+    args: ['run', 'app', 'python', 'fask'. ]
