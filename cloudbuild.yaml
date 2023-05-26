@@ -2,5 +2,5 @@ steps:
   - name: 'docker'
     args: ['build', '-t', 'app', '.']
 
-  - name: 'python'
-    args: ['main.py']
+  - name: 'docker'
+    args: ['run', 'app', 'python3', 'main.py']
