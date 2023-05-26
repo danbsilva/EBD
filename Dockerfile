@@ -6,7 +6,7 @@ WORKDIR /app
 # Copiando aqruivos
 COPY requirements.txt .
 COPY main.py .
-COPY ./src/ ./src/
+COPY ./src ./src
 
 # venv
 ENV VIRTUAL_ENV=/venv
